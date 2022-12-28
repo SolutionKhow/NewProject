@@ -121,4 +121,7 @@ Order(2000, () => {
     })
     .catch(()=>{
         console.log('Customer Left');
+    })
+    .finally(()=>{
+        console.log("Day Ending Shop Closed")
     });
