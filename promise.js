@@ -65,7 +65,11 @@ const stocks = {
 
 const Is_Shop_Open = true;
 
-const Order = (Time, Work) => {
+
+//This Arrow Function
+//this is no more work here
+const Order = (Time, Work) =>{
+
     return new Promise((resolve, reject) => {
         if (Is_Shop_Open) {
             setTimeout(() => {
