@@ -74,7 +74,7 @@ const Order = (Time, Work) => {
             }, Time);
         }
         else {
-            reject("Order is rejected");
+            reject(console.log("Shop is closed"));
         }
 
     });
@@ -118,4 +118,7 @@ Order(2000, () => {
         return Order(2000,()=>{
             console.log('Server the ICe Cream');
         });
+    })
+    .catch(()=>{
+        console.log('Customer Left');
     });
