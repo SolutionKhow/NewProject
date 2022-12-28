@@ -25,7 +25,7 @@ const topping_Choice=()=>{
                 console.log('Which topping wold you love')
             )
            // console.log('Which topping wold you love');
-        },3000);
+        },10000);
     });
 };
 
