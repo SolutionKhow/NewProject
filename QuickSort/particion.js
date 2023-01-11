@@ -93,7 +93,7 @@ let QuickSort = (low, high) => {
     }
 }
 
-let arr = [213, 55, 3, 6765, 12321, 8768, 3243, 333, -14];
+let arr = [3213,435435,6765,23123,4,-55,5654,5,222,111,1];
 let low = 0;
 let high = arr.length ;
 
