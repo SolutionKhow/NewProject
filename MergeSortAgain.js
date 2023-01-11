@@ -32,7 +32,7 @@ let Merge = (Arr, low, high, mid) => {
 
 }
 
-let Arr = [ 124, 55, 23, 77, 34, 1, 111, 45, 11, 87, 999, 3];
+let Arr = [ 124, 55, 23, 77, 34, 1, 111, 45, 11, 87, 999, 3,0.15,-15];
 let low = 0;
 let high = Arr.length - 1;
 
