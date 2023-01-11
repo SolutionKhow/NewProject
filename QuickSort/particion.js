@@ -88,14 +88,14 @@ var swap = (arr, l, h) => {
 let QuickSort = (low, high) => {
     if (low < high) {
         const j = partion(low, high);
-        QuickSort(low, j - 1);
+        QuickSort(low, j);
         QuickSort(j + 1, high);
     }
 }
 
 let arr = [213, 55, 3, 6765, 12321, 8768, 3243, 333, -14];
 let low = 0;
-let high = arr.length - 1;
+let high = arr.length ;
 
 
 QuickSort(low, high);
